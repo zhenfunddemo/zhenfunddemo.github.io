@@ -1,0 +1,1377 @@
+@font-face {
+  font-family: "DINPro";
+  src: url(../fonts/DINPro-Regular_13937.ttf);
+}
+
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url(../fonts/DINPro-Bold_13934.ttf);
+}
+
+@font-face {
+  font-family: "Klavika";
+  src: url(../fonts/Klavika-Regular.otf);
+}
+
+@font-face {
+  font-family: "Klavika-Bold";
+  src: url(../fonts/Klavika-Bold.otf);
+}
+
+body {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding-left: 81px;
+  padding-right: 81px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+.navbar-custom {
+  background-color: #FFFFFF;
+  border-color: transparent;
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.navbar-custom .navbar-nav {
+  padding-top: 40px;
+}
+
+.navbar-custom .navbar-brand {
+  padding-top: 0;
+}
+
+.navbar-custom .navbar-brand .logo {
+  width: 86px;
+  height: 86px;
+}
+
+.navbar-default .navbar-nav > .active{
+  color: #c9bc9c;
+  background: transparent;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c9bc9c;
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-nav {
+    padding-top: 40px;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand .logo {
+    width: 108px;
+    height: 108px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    padding-top: 0;
+  }
+  .navbar-default .navbar-nav > .active{
+    color: #c9bc9c;
+    background: transparent;
+  }
+  .navbar-default .navbar-nav > .active > a, 
+  .navbar-default .navbar-nav > .active > a:hover, 
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #c9bc9c;
+    background: transparent;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #FFFFFF;
+    padding-top: 0;
+  }
+  .navbar-custom.affix .navbar-nav {
+    padding-top: 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    padding-top: 0;
+  }
+  .navbar-custom.affix .navbar-brand .logo {
+    width: 86px;
+    height: 86px;
+  }
+  .navbar-default .navbar-nav > .active{
+    color: #c9bc9c;
+    background: #FFFFFF;
+  }
+  .navbar-default .navbar-nav > .active > a, 
+  .navbar-default .navbar-nav > .active > a:hover, 
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #c9bc9c;
+    background: #FFFFFF;
+  }
+}
+
+header {
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  color: #727171;
+  text-align: left;
+  max-width: 445px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 72px;
+    color: #727171;
+    text-align: left;
+    max-width: 445px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+header .intro-text {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 12px;
+  max-width: 426px;
+  text-align: left;
+  color: #727171;
+}
+
+header .bottom-separator {
+  margin-top: 48px;
+  border-top: 1px solid #c9bc9c;
+}
+
+header .top-separator {
+  margin-top: 156px;
+}
+
+header .header-separator {
+  max-width: 276px;
+  border-top: 5px solid #c9bc9c;
+}
+
+header .links {
+  margin-top: 24px;
+  margin-bottom:112px;
+}
+
+header .media-number {
+  border: 1px solid #14284b;
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #14284b;
+  width: 40px;
+  height: 40px;
+  padding: 9px 15px 9px 15px;
+}
+
+header .media-title {
+  text-align: left;
+  font-family: "DINPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #14284b;
+  max-width: 242px;
+}
+
+header .media-source {
+  text-align: left;
+  font-family: "DINPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #727171;
+}
+
+section#overview .overview-container {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 149px;
+  background-image: url('../img/zf_pattern.png');
+  background-size: 320px 320px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+}
+
+section#overview p.overview-content {
+  text-align: left;
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 64px;
+  color: #727171;
+  max-width: 696px;
+}
+
+section#overview img {
+  width: 64px;
+  height: 72px;
+}
+
+section#overview p.img-title {
+  text-align: center;
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 16px;
+  color: #c9bc9c;
+}
+
+section#overview .row-gap {
+  margin-top: 64px;
+}
+
+section#overview .zhenfacts-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+  background-image: url('../img/wave_pattern.svg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #f8f8f8;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-right: 0;
+}
+
+section#overview h4.zhen-facts-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  color: #727171;
+}
+
+section#overview .zhen-facts-heading-small {
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #c9bc9c;
+}
+
+section#overview p.zhen-facts-content {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #727171;
+}
+
+.putty-title-separator {
+  max-width: 128px;
+  border-top: 5px solid #c9bc9c;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white-title-separator {
+  max-width: 128px;
+  border-top: 5px solid #ffffff;
+}
+
+section#philosophy {
+  padding-top: 191px;
+  background-image: url('../img/philosophy_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+section h2.section-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 44px;
+  color: #727171;
+}
+
+section h3 {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 64px;
+  color: #727171;
+}
+
+section#philosophy h2.section-philosophy-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 44px;
+  margin-bottom: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+section#philosophy p.zhen-philosophy-content {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+section#philosophy p.value {
+  max-width: 246px;
+}
+
+section#philosophy p.shared {
+  max-width: 400px;
+}
+
+section#philosophy h4.zhen-philosophy-heading {
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 57px;
+  color: #ffffff;
+}
+
+section#portfolio {
+  text-align: center;
+  padding-top: 96px;
+}
+
+section#portfolio .diamond {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+  width: 226.2px;
+  height: 226.2px;
+  transform: rotate(45deg);
+  background-color: #f8f8f8;
+  z-index: -1;
+}
+
+section#portfolio .ipo-col {
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+section#portfolio .ipo-container {
+  padding-bottom: 360px;
+}
+
+section#portfolio .ipo-container-override {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section#portfolio .ipo-title {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 128px;
+  color: #727171;
+  margin-bottom: 0px;
+}
+
+section#portfolio .ipo-subtitle {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #c9bc9c;
+  margin-bottom: 110px;
+}
+
+section#portfolio div.jumei-cell {
+  background-image: url('../img/ch_logos/jumei.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.jumei-cell:hover {
+  background-image: url('../img/ch_logos/jumei_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.jiayuan-cell {
+  background-image: url('../img/ch_logos/jiayuan.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.jiayuan-cell:hover {
+  background-image: url('../img/ch_logos/jiayuan_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.netposa-cell {
+  background-image: url('../img/ch_logos/netposa.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.netposa-cell:hover {
+  background-image: url('../img/ch_logos/netposa_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.lightinthebox-cell {
+  background-image: url('../img/ch_logos/lightinthebox.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.lightinthebox-cell:hover {
+  background-image: url('../img/ch_logos/lightinthebox_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.ftalk-cell {
+  background-image: url('../img/ch_logos/51talk.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.ftalk-cell:hover {
+  background-image: url('../img/ch_logos/51talk_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio div.meicai-cell {
+  background-image: url('../img/ch_logos/meicai.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.meicai-cell:hover {
+  background-image: url('../img/ch_logos/meicai_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hero-cell {
+  background-image: url('../img/ch_logos/hero.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hero-cell:hover {
+  background-image: url('../img/ch_logos/hero_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.miya-cell {
+  background-image: url('../img/ch_logos/miya.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.miya-cell:hover {
+  background-image: url('../img/ch_logos/miya_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.yitu-cell {
+  background-image: url('../img/ch_logos/yitu.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.yitu-cell:hover {
+  background-image: url('../img/ch_logos/yitu_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.mobvoi-cell {
+  background-image: url('../img/ch_logos/mobvoi.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.mobvoi-cell:hover {
+  background-image: url('../img/ch_logos/mobvoi_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.zhaogang-cell {
+  background-image: url('../img/ch_logos/zhaogang.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.zhaogang-cell:hover {
+  background-image: url('../img/ch_logos/zhaogang_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.urwork-cell {
+  background-image: url('../img/ch_logos/urwork.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.urwork-cell:hover {
+  background-image: url('../img/ch_logos/urwork_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.redbook-cell {
+  background-image: url('../img/ch_logos/redbook.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.redbook-cell:hover {
+  background-image: url('../img/ch_logos/redbook_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.ofo-cell {
+  background-image: url('../img/ch_logos/ofo.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.ofo-cell:hover {
+  background-image: url('../img/ch_logos/ofo_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+section#portfolio div.vipkid-cell {
+  background-image: url('../img/ch_logos/vipkid.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.vipkid-cell:hover {
+  background-image: url('../img/ch_logos/vipkid_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio .unicorn-title {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 128px;
+  color: #727171;
+  margin-bottom: 0px;
+}
+
+section#portfolio .unicorn-subtitle {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #c9bc9c;
+  margin-bottom: 65px;
+}
+
+@media (min-width: 992px) {
+  section#portfolio .ipo-container {
+    background-image: url('../img/portfolio_background_in1.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 360px;
+    z-index: 0;
+    position: relative;
+  }
+
+  section#portfolio .ipo-col {
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  section#portfolio .diamond {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -30px;
+    width: 226.2px;
+    height: 226.2px;
+    transform: rotate(45deg);
+    background-color: #f8f8f8;
+    z-index: -1;
+  }
+
+  section#portfolio .ipo-title {
+    margin-left: 300px;
+    font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 128px;
+    color: #727171;
+    margin-bottom: 0px;
+  }
+
+  section#portfolio .ipo-subtitle {
+    margin-left: 300px;
+    font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #c9bc9c;
+    margin-bottom: 110px;
+  }
+
+  section#portfolio .unicorn-title {
+    font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 128px;
+    color: #727171;
+    margin-bottom: 0px;
+    max-width: 280px;
+  }
+
+  section#portfolio .unicorn-subtitle {
+    font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #c9bc9c;
+    margin-bottom: 65px;
+    max-width: 280px;
+  }
+}
+
+section#portfolio .ipo-row1 {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#portfolio .ipo-row2 {
+  max-width: 628px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#portfolio .small-diamond {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 20%;
+  width: 108px;
+  height: 108px;
+  transform: rotate(45deg);
+  background-color: #f8f8f8;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  section#portfolio .small-diamond {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30%;
+    width: 108px;
+    height: 108px;
+    transform: rotate(45deg);
+    background-color: #f8f8f8;
+    z-index: -1;
+  }
+}
+
+section#portfolio .unicorn-col {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+section#portfolio .us-portfolio-heading {
+  background-image: url('../img/goldgate.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding-bottom: 64px;
+  padding-top: 200px;
+}
+
+section#portfolio .us-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 64px;
+  color: #ffffff;
+}
+
+section#portfolio .us-content {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 32px;
+  color: #ffffff;
+  max-width: 342px;
+  text-align: left;
+}
+
+section#portfolio .us-portfolio-separator {
+  border-top: 1px solid #d8d8d8;
+  max-width: 1056px;
+}
+
+section#portfolio h2.section-portfolio-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 44px;
+  margin-bottom: 96px;
+  color: #727171;
+}
+
+section#portfolio .section-portfolio-subtitle {
+}
+
+section p.zhen-portfolio-content {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+section h4.zhen-portfolio-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 160px;
+  color: #ffffff;
+}
+
+section#portfolio .ipo-image {
+  width: 160px;
+  height: 80px;
+}
+
+section#portfolio .unicorn-image {
+}
+
+section#portfolio .us-container {
+  background: #f8f8f8;
+}
+
+section#portfolio .us-inner-container {
+  background: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portfolio-cell {
+  padding-top:7%;
+  padding-bottom:7%;
+}
+
+.portfolio-logo {
+/*
+  max-width: 360px;
+  max-height: 360px;
+  */
+}
+
+section#team {
+  text-align: center;
+  background-color: #444a57;
+  padding-bottom: 164px;
+  padding-top: 100px;
+}
+
+section#team .section-team-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 44px;
+  color: #ffffff;
+}
+
+section#team .section-us-team-heading {
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 96px;
+  margin-bottom: 64px;
+  color: #ffffff;
+}
+
+section#team .img-title {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  top: 76%;
+  left: 0;
+  width: 100%;
+}
+
+section#team .img-subtitle {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  top: 87%;
+  left: 0;
+  width: 100%;
+}
+
+section#team p.team-content {
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 342px;
+  text-align: left;
+}
+
+section#team div.xu-team-cell {
+  background-image: url('../img/team/xu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.xu-team-cell:hover {
+  background-image: url('../img/team/xu2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.wang-team-cell {
+  background-image: url('../img/team/wang.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.wang-team-cell:hover {
+  background-image: url('../img/team/wang2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.fang-team-cell {
+  background-image: url('../img/team/fang.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.fang-team-cell:hover {
+  background-image: url('../img/team/fang2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.zhen-team-cell {
+  background-image: url('../img/team/zhen.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.zhen-team-cell:hover {
+  background-image: url('../img/team/zhen2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.gu-team-cell {
+  background-image: url('../img/team/gu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.gu-team-cell:hover {
+  background-image: url('../img/team/gu2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.zhang-team-cell {
+  background-image: url('../img/team/zhang.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.zhang-team-cell:hover {
+  background-image: url('../img/team/zhang2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.liu-team-cell {
+  background-image: url('../img/team/liu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.liu-team-cell:hover {
+  background-image: url('../img/team/liu2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.owang-team-cell {
+  background-image: url('../img/team/owang.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.owang-team-cell:hover {
+  background-image: url('../img/team/owang2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.jiang-team-cell {
+  background-image: url('../img/team/jiang.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team div.jiang-team-cell:hover {
+  background-image: url('../img/team/jiang2.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#team .us-team-container {
+  max-width: 720px;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 116px;
+}
+
+footer .linkedin {
+  width: 32px;
+  height: 32px;
+}
+
+footer .twitter {
+  margin-left: 24px;
+  width: 35.9px;
+  height: 29.2px;
+}
+
+footer .link-container {
+  margin-top: 8px;
+}
+
+footer .china-link {
+  font-family: "DINPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #c9bc9c;
+  border-radius: 2px;
+  border: solid 1px #c9bc9c;
+}
+
+footer .logo {
+  max-width: 157.6px;
+  max-height: 48px;
+}
+
+.team-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+
+.team-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background-color: rgba(38, 46, 60, 0.9);
+}
+
+.team-modal .team-modal-content {
+  max-width: 840px;
+}
+
+.team-modal .modal-content h2 {
+  text-align: left;
+  font-family: "Klavika-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #c9bc9c;
+  margin-bottom: 8px;
+}
+.team-modal .modal-content h4 {
+  text-align: left;
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.team-modal .modal-content p {
+  text-align: left;
+  font-family: "DINPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #d8d8d8;
+}
+
+.team-modal .modal-content .team-close {
+  width: 32px;
+  height: 32px;
+}
+
+
