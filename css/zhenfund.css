@@ -23,8 +23,15 @@ body {
 }
 
 .container {
-  padding-left: 81px;
-  padding-right: 81px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+  .container {
+    padding-left: 81px;
+    padding-right: 81px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -209,11 +216,12 @@ header .media-number {
 }
 
 header .media-title {
+  margin-left: 3px;
   text-align: left;
   font-family: "DINPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #14284b;
-  max-width: 242px;
+  max-width: 320px;
 }
 
 header .media-source {
@@ -221,6 +229,17 @@ header .media-source {
   font-family: "DINPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #727171;
+  margin-bottom: 30px;
+}
+
+.forbes-logo {
+  width: 144px;
+  height: 24px;
+}
+
+.information-logo {
+  width: 144px;
+  height: 24px;
 }
 
 section#overview .overview-container {
