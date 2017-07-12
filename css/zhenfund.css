@@ -99,6 +99,15 @@ body {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+
+    background-image: url('../img/logo@2x.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   }
   .navbar-custom .navbar-brand {
     padding-top: 0;
@@ -128,8 +137,18 @@ body {
     padding-top: 0;
   }
   .navbar-custom.affix .navbar-brand .logo {
-    width: 86px;
-    height: 86px;
+    margin-top: 5px;
+    width: 134px;
+    height: 40px;
+
+    background-image: url('../img/zhenfund.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   }
   .navbar-default .navbar-nav > .active{
     color: #c9bc9c;
@@ -415,7 +434,13 @@ section#overview p.img-title {
 }
 
 section#overview .row-gap {
-  margin-top: 64px;
+  margin-top: 0;
+}
+
+@media (min-width: 992px) {
+  section#overview .row-gap {
+    margin-top: 64px;
+  }
 }
 
 section#overview .zhenfacts-container {
@@ -1176,6 +1201,654 @@ section#portfolio .us-inner-container {
   */
 }
 
+section#portfolio div.ubiome-cell {
+  background-image: url('../img/logos/uBiome.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.ubiome-cell:hover {
+  background-image: url('../img/logos/uBiome_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.everstring-cell {
+  background-image: url('../img/logos/everstring.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.everstring-cell:hover {
+  background-image: url('../img/logos/everstring_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.transcriptic-cell {
+  background-image: url('../img/logos/transcriptic.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.transcriptic-cell:hover {
+  background-image: url('../img/logos/transcriptic_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.ohmygreen-cell {
+  background-image: url('../img/logos/ohmygreen.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.ohmygreen-cell:hover {
+  background-image: url('../img/logos/ohmygreen_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.yoshi-cell {
+  background-image: url('../img/logos/yoshi.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.yoshi-cell:hover {
+  background-image: url('../img/logos/yoshi_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.floyd-cell {
+  background-image: url('../img/logos/floyd.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.floyd-cell:hover {
+  background-image: url('../img/logos/floyd_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.synthego-cell {
+  background-image: url('../img/logos/synthego.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.synthego-cell:hover {
+  background-image: url('../img/logos/synthego_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hyperloop-cell {
+  background-image: url('../img/logos/Hyperloop.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hyperloop-cell:hover {
+  background-image: url('../img/logos/Hyperloop_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hovercamera-cell {
+  background-image: url('../img/logos/hovercamera.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.hovercamera-cell:hover {
+  background-image: url('../img/logos/hovercamera_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.zenprospect-cell {
+  background-image: url('../img/logos/zenprospect.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.zenprospect-cell:hover {
+  background-image: url('../img/logos/zenprospect_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.thunkable-cell {
+  background-image: url('../img/logos/thunkable.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.thunkable-cell:hover {
+  background-image: url('../img/logos/thunkable_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.superevil-cell {
+  background-image: url('../img/logos/Superevil.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.superevil-cell:hover {
+  background-image: url('../img/logos/Superevil_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.medal-cell {
+  background-image: url('../img/logos/medal.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.medal-cell:hover {
+  background-image: url('../img/logos/medal_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.artsy-cell {
+  background-image: url('../img/logos/artsy.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.artsy-cell:hover {
+  background-image: url('../img/logos/artsy_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.histowiz-cell {
+  background-image: url('../img/logos/histowiz.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.histowiz-cell:hover {
+  background-image: url('../img/logos/histowiz_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.pillar-cell {
+  background-image: url('../img/logos/pillar.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.pillar-cell:hover {
+  background-image: url('../img/logos/pillar_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.xtalpi-cell {
+  background-image: url('../img/logos/Xtalpi.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.xtalpi-cell:hover {
+  background-image: url('../img/logos/Xtalpi_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.makeschool-cell {
+  background-image: url('../img/logos/makeschool.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.makeschool-cell:hover {
+  background-image: url('../img/logos/makeschool_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.osaro-cell {
+  background-image: url('../img/logos/osaro.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.osaro-cell:hover {
+  background-image: url('../img/logos/osaro_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.blackmessage-cell {
+  background-image: url('../img/logos/blackmessage.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.blackmessage-cell:hover {
+  background-image: url('../img/logos/blackmessage_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.pollyai-cell {
+  background-image: url('../img/logos/PollyAI.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.pollyai-cell:hover {
+  background-image: url('../img/logos/PollyAI_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.jumpcut-cell {
+  background-image: url('../img/logos/Jumpcut.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.jumpcut-cell:hover {
+  background-image: url('../img/logos/Jumpcut_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.validere-cell {
+  background-image: url('../img/logos/Validere.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.validere-cell:hover {
+  background-image: url('../img/logos/Validere_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.visbit-cell {
+  background-image: url('../img/logos/visbit.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.visbit-cell:hover {
+  background-image: url('../img/logos/visbit_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.securly-cell {
+  background-image: url('../img/logos/Securly.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.securly-cell:hover {
+  background-image: url('../img/logos/Securly_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.virtroid-cell {
+  background-image: url('../img/logos/virtroid.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.virtroid-cell:hover {
+  background-image: url('../img/logos/virtroid_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.leap-cell {
+  background-image: url('../img/logos/leap.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+section#portfolio div.leap-cell:hover {
+  background-image: url('../img/logos/leap_o.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
 section#team {
   text-align: center;
   background-color: #444a57;
@@ -1452,6 +2125,13 @@ section#team .us-team-container {
   max-width: 720px;
 }
 
+footer .footer-des {
+  margin-top: 32px;
+  font-family: "Klavika", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #727171;
+}
+
 footer .footer-bg {
   padding-top: 80px;
   padding-bottom: 116px;
@@ -1460,15 +2140,40 @@ footer .footer-bg {
   z-index: 1;
 }
 
+footer img:hover {
+  opacity: 0.6;
+}
+
+footer span a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
+footer .footer-gap {
+  margin-bottom: 30px;
+}
+
 footer .linkedin {
+  margin-left: 32px;
   width: 32px;
   height: 32px;
 }
 
 footer .twitter {
-  margin-left: 24px;
+  margin-left: 32px;
   width: 35.9px;
   height: 29.2px;
+}
+
+footer .facebook {
+  width: 32px;
+  height: 32px;
+}
+
+footer .instagram {
+  margin-left: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 footer .link-container {
