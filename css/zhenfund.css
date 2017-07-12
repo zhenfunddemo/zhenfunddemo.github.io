@@ -2151,11 +2151,7 @@ footer .footer-bg {
   z-index: 1;
 }
 
-footer img:hover {
-  opacity: 0.6;
-}
-
-footer span a:hover, a:visited, a:link, a:active
+footer a:hover, a:visited, a:link, a:active
 {
   text-decoration: none;
 }
@@ -2165,26 +2161,113 @@ footer .footer-gap {
 }
 
 footer .linkedin {
-  margin-left: 32px;
+  margin-left: 20px;
   width: 32px;
   height: 32px;
+  background-image: url('../img/linkedin_icon.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer .linkedin:hover {
+  margin-left: 20px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/linkedin_icon_hovered.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 footer .twitter {
-  margin-left: 32px;
+  margin-left: 20px;
   width: 35.9px;
   height: 29.2px;
+  background-image: url('../img/twitter_icon.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer .twitter:hover {
+  margin-left: 20px;
+  width: 35.9px;
+  height: 29.2px;
+  background-image: url('../img/twitter_icon_hovered.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 footer .facebook {
   width: 32px;
   height: 32px;
+  background-image: url('../img/facebook_icon.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer .facebook:hover {
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/facebook_icon_hovered.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 footer .instagram {
-  margin-left: 32px;
+  margin-left: 20px;
   width: 32px;
   height: 32px;
+  background-image: url('../img/instagram_icon.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer .instagram:hover {
+  margin-left: 20px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/instagram_icon_hovered.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 footer .link-container {
